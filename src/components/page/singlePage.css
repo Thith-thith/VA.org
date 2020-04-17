@@ -1,0 +1,210 @@
+/* ---------------------------------For markdown---------------------------------------- */
+
+#single-page {
+  background-color: rgb(231, 230, 230);
+}
+#single-page .detail .container-background {
+  background-color: whitesmoke;
+  padding: 50px 50px;
+}
+
+#single-page .detail .language-bash {
+  font-size: 1.1rem;
+  font-size: 20px;
+  color: #107a8b;
+}
+#single-page .detail pre {
+  background-color: rgb(231, 230, 230);
+  padding: 25px 50px;
+  border-radius: 5px;
+}
+#single-page .detail h1 {
+  padding: 1rem 0;
+  font-size: 50px;
+  border-bottom: 5px solid rgb(231, 230, 230);
+  margin-bottom: 40px;
+}
+#single-page .detail h2 {
+  margin: 50px 0 20px 0;
+}
+#single-page .detail p {
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 100% !important;
+  font-family: "Roboto" !important;
+}
+#single-page .detail p code {
+  background-color: #fff98c;
+  border-radius: 3px;
+  padding: 5px;
+}
+#single-page .detail p a {
+  color: #2cb978;
+}
+
+#single-page .btn-outline-success {
+  color: #2cb978;
+  border-color: #2cb978;
+}
+#single-page .btn-outline-success:hover {
+  color: white;
+  border-color: #2cb978;
+  background-color: #2cb978;
+}
+
+/* ------------------------------------- For Footer --------------------------------------- */
+
+#single-page .footer {
+  background-color: #3b5441;
+  color: white;
+}
+#single-page .ptb-5,
+#single-page .pyx-5 {
+  padding: 3rem 0;
+}
+#single-page .p-0 {
+  padding: 0 !important;
+}
+#single-page.m-0 {
+  margin: 0 !important;
+}
+#single-page .pb-5,
+#single-page .py-5 {
+  padding-bottom: 3rem !important;
+}
+
+#single-page .footer .about-company i {
+  font-size: 25px;
+}
+
+#single-page .footer .cooperation ul {
+  list-style-type: none !important;
+}
+#single-page .footer .cooperation li a:hover {
+  color: #2cb978;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#single-page .footer li a,
+#single-page .footer p {
+  font-size: 20px;
+}
+
+#single-page .footer .svg-mr-2 {
+  margin-right: 20px;
+}
+
+#single-page .footer .svg-social a svg,
+#single-page .footer .svg-social svg {
+  color: white;
+  margin-right: 1rem;
+  font-size: 45px;
+  margin-top: 1rem;
+}
+#single-page .footer .svg-social a:hover svg {
+  color: #2cb978;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#single-page .footer .cooperation li a {
+  color: white;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+#single-page .footer .copyright p {
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  margin: 0;
+}
+
+/*---------------------------------- Respondsive ------------------------------------*/
+
+/* ----------- phone screen ----------- */
+/* ----------- portrait ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: portrait) {
+  #single-page .ptb-5,
+  #single-page .pyx-5 {
+    padding: 0px 0px !important;
+  }
+  #single-page .detail .container-background {
+    margin: 0;
+    max-width: 100%;
+    padding: 20px 20px;
+  }
+  #single-page .detail .language-bash {
+    font-size: 16px;
+  }
+  #single-page .detail pre {
+    background-color: rgb(231, 230, 230);
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  #single-page .detail h1 {
+    font-size: 40px;
+  }
+  #single-page .footer li a,
+  #single-page .footer p {
+    text-align: end;
+  }
+  #single-page .footer li {
+    text-align: end;
+  }
+
+  #single-page .footer .text-center {
+    text-align: end !important;
+  }
+}
+/* ----------- landscape ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
+  #single-page .ptb-5,
+  #single-page .pyx-5 {
+    padding: 0px 0px !important;
+  }
+  #single-page .detail .container-background {
+    background-color: whitesmoke;
+    padding: 10px 10px;
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+/* ----------- iPad mini air and pro ----------- */
+/* ----------- landscape ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and(orientation:landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #single-page .ptb-5,
+  #single-page .pyx-5 {
+    padding: 0;
+    margin: 0 !important;
+  }
+  #single-page .detail .container-background {
+    padding: 20px 20px;
+    max-width: 100%;
+  }
+}
+@media only screen and (min-device-width: 411px) and (max-device-width: 823px) and(orientation:landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  #single-page .ptb-5,
+  #single-page .pyx-5 {
+    padding: 0px 0px !important;
+  }
+  #single-page .detail .container-background {
+    padding: 20px 20px;
+    max-width: 100%;
+    margin: 0px;
+  }
+}
+/* ----------- portrait ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  #single-page .ptb-5,
+  #single-page .pyx-5 {
+    padding: 0px 0px !important;
+    margin: 0px;
+  }
+  #single-page .detail .container-background {
+    background-color: whitesmoke;
+    padding: 20px 20px;
+    margin: 0;
+    max-width: 100%;
+  }
+}
